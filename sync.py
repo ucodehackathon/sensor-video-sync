@@ -10,7 +10,7 @@ def getSyncedData(csv_file):
         best_candidate_end=4204,
         video_synch_init=2.7,
         video_synch_end=13.93,
-        sampling_rate=200).values
+        sampling_rate=500).values
 
     acc = synced[:, 0:3]
     gyr = synced[:, 3:6]

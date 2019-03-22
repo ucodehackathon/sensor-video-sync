@@ -2,7 +2,7 @@
 
 `$ pip3 install -r requirements.txt`
 
-Modify `sync.py` to set the correct file to use.
+Modify `sync.py` to set the correct file to use and sampling rate.
 
 `$ python3 sync.py`
 
