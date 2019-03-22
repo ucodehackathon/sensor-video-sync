@@ -18,9 +18,8 @@ def getSyncedData(csv_file):
 
     return acc, gyr, time
 
-
 def main():
-    acc_raw, gyr_raw, time_raw = getSyncedData('./miPod_F200__22_03__2019_16_10.csv')
+    acc_raw, gyr_raw, time_raw = getSyncedData('./csv_file.csv')
 
     indexes = []
 

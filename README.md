@@ -2,6 +2,8 @@
 
 `$ pip3 install -r requirements.txt`
 
+Modify `sync.py` to set the correct file to use.
+
 `$ python3 sync.py`
 
 From the cli:
